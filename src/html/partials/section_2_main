@@ -1,0 +1,11 @@
+<section class="section_2">
+      <div class="delivery">
+        <img src="./assets/images/icon_4.png" class="icon_delivery">
+        <h3 class="title_delivery">Envío gratis garantizado</h3>
+        <p class="text_delivery">Envío gratis en compras desde 100</p>
+    </div>
+
+      <button class="botton_delivery">
+      <p class="text_botton_delivery">Comprar ahora</p>
+      </button>
+    </section>
