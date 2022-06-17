@@ -1,5 +1,54 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+header{
+  width: 414px;
+  height: 389px;
+  background-image: url(/assets/images/header.jpg);
+  background-size:160%;
+  background-position: center;
+} 
+
+  .bar_menu{
+    width: 24px;
+    height: 24px;
+    background-color: chocolate;
 }
+ 
+.logo_slogan_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  } 
+
+  .logo{
+    height: 96px;
+    width: 213px;
+    margin-top: 19px;
+    margin-left: 100px;
+    margin-bottom: 62px;
+  }
+
+  .slogan{
+    font-size: 24px;
+    color: var(--verde_principal);
+    font-family: var(--secondary-font);
+   
+    margin-left: 65px;
+    margin-bottom: 62px;
+  
+    
+  }
+  .button{
+    height: 48px;
+    width: 176px;
+    margin-left: 119px;
+    background-color:var(--verde_principal);
+    color: white;
+    border: none;
+    font-family: var(--secondary-font);
+  }
+
+  .bar_menu{
+    margin-left: 36px;
+        
+  }
+ 

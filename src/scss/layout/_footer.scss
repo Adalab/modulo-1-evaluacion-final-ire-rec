@@ -1,8 +1,59 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+footer{
+    height: 545px;
+    width: 413px;
+    background-color: var(--verde_principal);
+}
+
+.footer_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--verde_agua);
+    font-family: var(--secondary-font);
+  
+}
+      
+.list_about_us{   
+    list-style: none;
+    font-size: 14px;
+}
+
+.list_store_title{
+    list-style: none;
+    font-size: 14px;
+
+}
+
+.email{
+    font-size: 14px;
+}
+.about_us_title {
+    font-size: 20px;
+}
+.contact_title{
+    font-size: 20px;
+}
+
+.store_title{
+    font-size: 20px;
+}
+
+.store_div{
+    width: 208px;
+    height: 119px;
+    margin-top: 56px;
+}
+
+.us_div{
+    width: 208px;
+    margin-top: 30px;
+}
+
+.contact_div{
+    width: 208px;
+    margin-top: 30px;
+}
+.partners{
+    font-size: 14px;
 }

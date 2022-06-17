@@ -4,9 +4,9 @@
       <p class="text_section_3"> Una línea de productos diseñados para todos tus espacios</p>   
       </div>
 
-      <button>
+      <button class="button">
         <p class="text_button"> Comprar Ahora</p>
       </button>
-      <img src="./assets/images/creando-espacios.jpg" class="image_section_3">
+</section>
 
-      </section>
+      <img src="./assets/images/creando-espacios.jpg" class="image_section_3">
