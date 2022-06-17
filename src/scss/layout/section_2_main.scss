@@ -46,3 +46,40 @@
 }
 
     
+@media all and (min-width: 900px){
+   
+    .section_2{
+        width: 900px;
+        height: 100vh;
+        background-color: var(--naranja);
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        
+    }
+    .icon_delivery{
+        height: 120px;
+        width: 120px;
+        margin-left: 400px;
+        margin-right: 468px;
+    
+    }
+    .title_delivery{
+        text-align: center;
+        font-size: 30px;
+        margin-right: 35px
+    }
+    
+    .botton_delivery{
+        height: 48px;
+        width: 175px;
+        margin-left: 380px 
+    
+    }
+    .text_delivery{
+        text-align: center;    
+        font-size: 14px;
+        margin-right: 35px;
+    }
+    }
+    

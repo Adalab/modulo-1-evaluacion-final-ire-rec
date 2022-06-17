@@ -1,12 +1,13 @@
 <section class="section_3">
       <div class="slogan_more_benefits" >
       <h2 class="title_section_3">Disfruta creando espacios</h2>
-      <p class="text_section_3"> Una línea de productos diseñados para todos tus espacios</p>   
+      <p class="text_section_3"> Una línea de productos diseñados para todos tus espacios</p> 
+      <button class="button_sec">
+            <p class="text_button"> Comprar Ahora</p>
+          </button>  
       </div>
 
-      <button class="button">
-        <p class="text_button"> Comprar Ahora</p>
-      </button>
+     
 </section>
 
       <img src="./assets/images/creando-espacios.jpg" class="image_section_3">

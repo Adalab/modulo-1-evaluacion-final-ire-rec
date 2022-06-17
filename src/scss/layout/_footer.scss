@@ -75,3 +75,48 @@ footer{
     object-fit: contain;
     margin-left: 350px;
 }
+
+@media all and (min-width: 900px){
+    footer{
+        height: 100vh;
+        width: 900px; 
+    }
+
+    .footer_sec{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: var(--verde_agua);
+        font-family: var(--secondary-font);
+      
+    }
+    .list_about_us{   
+        list-style: none;
+        font-size: 14px;
+    
+    }
+
+    .about_us_title{
+        margin-top: 15px;
+    }
+
+    .contact_title{
+        margin-top: -23px;
+ 
+   }
+
+   .rrss{
+    display: flex;
+    flex-direction: row;
+    margin-left: 550px;
+    margin-top: -40px;
+}
+
+.arrow{
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+    margin-left: 800px;
+}
+}

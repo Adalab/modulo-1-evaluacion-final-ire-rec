@@ -89,4 +89,36 @@ margin-left: 165px;
         }
 
     
+    @media all and (min-width: 900px){
+
+        .section_1{        
+            width: 900px;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 4fr;    
+            }     
+   
+    
+    .title_section_1{    
+    
+        margin-right: 169px;
+        margin-left: 196px;
+        font-family: var(--secondary-font); 
+    } 
+    .icon_benefit_1{
+        
+        margin-left: 400px        
+        }
+
+    .icon_benefit_2{
+         margin-left: 400px;           
+            }
+
+    .icon_benefit_3{
+            
+     margin-left: 420px;
+                
+                }
+    } 
+
     

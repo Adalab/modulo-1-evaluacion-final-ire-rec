@@ -52,3 +52,45 @@ header{
         
   }
 
+
+
+/// SECTION_HEADER_SCSS///
+
+@media all and (min-width: 900px){
+  
+header{
+ width: 900px;
+ height: 100vh;
+ background-image: url(/assets/images/header.jpg);
+ background-size:140%;
+ background-position:right;
+}
+
+.logo{
+ height: 96px;
+ width: 213px;
+ margin-top: 19px;
+ margin-left: 353px;
+ margin-bottom: 120px;
+}
+
+.slogan{
+ font-size: 36px;
+ color: var(--verde_principal);
+ font-family: var(--secondary-font);
+ margin-left: 147px;
+ margin-right: 300px;
+ margin-top: 54px;
+ 
+}
+.button{
+ height: 48px;
+ width: 176px;
+ margin-left: 147px;
+ background-color:var(--verde_principal);
+ color: white;
+ border: none;
+ font-family: var(--secondary-font);
+ margin-bottom: 128px;
+}
+}
