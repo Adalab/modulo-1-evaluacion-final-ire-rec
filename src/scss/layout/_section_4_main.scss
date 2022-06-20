@@ -1,0 +1,20 @@
+
+.ofertas_especiales{
+    display: none;
+}
+@media all and (min-width: 900px){
+.ofertas_especiales{
+width: 100%;
+background-color: var( --naranja);
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.subtitle_parag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+}
