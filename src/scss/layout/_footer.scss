@@ -1,6 +1,5 @@
 footer{
-    height: 545px;
-    width: 413px;
+    width: 100%;
     background-color: var(--verde_principal);
 }
 
@@ -10,21 +9,26 @@ footer{
     align-items: center;
     justify-content: center;
     color: var(--verde_agua);
-    font-family: var(--secondary-font);
-
-  
+    font-family: var(--secondary-font);  
 }
-      
-.list_about_us{   
-    list-style: none;
-    font-size: 14px;
-    text-decoration:none
+
+ul.list_store_title li a{
+    text-decoration: none;
+    color:var(--verde_agua);
+}
+ul.list_about_us li a{
+    text-decoration: none;
+    color:var(--verde_agua);
 }
 
 .list_store_title{
     list-style: none;
     font-size: 14px;
-
+    
+}
+.list_about_us{   
+    list-style: none;
+    font-size: 14px;
 }
 
 .email{
@@ -67,7 +71,7 @@ footer{
 .rrss{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 20px;
 }
 
@@ -75,13 +79,15 @@ footer{
     height: 24px;
     width: 24px;
     object-fit: contain;
-    margin-left: 350px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+   
 }
 
 @media all and (min-width: 900px){
     footer{
         height: 100vh;
-        width: 900px; 
+        width: 100%
     }
 
     .footer_sec{
@@ -95,8 +101,7 @@ footer{
     }
     .list_about_us{   
         list-style: none;
-        font-size: 14px;
-    
+        font-size: 14px;    
     }
 
     .about_us_title{
@@ -104,14 +109,13 @@ footer{
     }
 
     .contact_title{
-        margin-top: -23px;
- 
+        margin-top: -23px; 
    }
 
    .rrss{
     display: flex;
     flex-direction: row;
-    margin-left: 550px;
+    margin-left: 730px;
     margin-top: -40px;
 }
 
@@ -119,6 +123,6 @@ footer{
     height: 24px;
     width: 24px;
     object-fit: contain;
-    margin-left: 800px;
+    margin-left: 1020px;
 }
 }

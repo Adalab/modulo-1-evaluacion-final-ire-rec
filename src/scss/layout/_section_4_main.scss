@@ -6,6 +6,8 @@
 .ofertas_especiales{
 width: 100%;
 background-color: var( --naranja);
+color: white;
+font-family: var(--secondary-font);
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -15,6 +17,7 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 }
