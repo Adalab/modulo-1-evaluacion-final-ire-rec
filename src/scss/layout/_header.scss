@@ -1,8 +1,8 @@
 header{
   width: 100%;
   height: 389px;
-  background-image: url(/assets/images/header.jpg);
-  background-size:175%;
+  background-image: url(../images/header.jpg);
+  background-size:100% 100%;
   background-position: center;
 } 
 
@@ -47,10 +47,6 @@ header{
     font-family: var(--secondary-font);
   }
 
-  .bar_menu{
-    margin-left: 36px;
-        
-  }
 
 
 
@@ -60,8 +56,6 @@ header{
   
 header{
  height: 100vh;
- background-image: url(/assets/images/header.jpg);
- background-size:140%;
  background-position:right;
 }
 
